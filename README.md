@@ -22,3 +22,4 @@ success = lipid_searcher.load_lipid_database()
 # Start interactive search
 search_engine = EnhancedLipidSearchEngine(lipid_searcher.df)
 enhanced_interactive_search(search_engine)
+
