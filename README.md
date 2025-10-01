@@ -23,8 +23,3 @@ success = lipid_searcher.load_lipid_database()
 search_engine = EnhancedLipidSearchEngine(lipid_searcher.df)
 enhanced_interactive_search(search_engine)
 
-flowchart TD
-    A[Create Repository] --> B[Create Branch]
-    B --> C[Make Changes & Commit]
-    C --> D[Open Pull Request]
-    D --> E[Merge to Main]
